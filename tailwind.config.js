@@ -1,20 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,js}'],
+  content: [
+    "./src/**/*.{html,js}"]
+    ,
   theme: {
     fontfamily: {
-      primary: 'Playfair Dis[;ay',
-      secondary: 'Mullish',
+      primary: 'Playfair Display',
+      secondary: 'Mulish',
     },
     screens: {
       sm: '640px',
-      md:'768',
-      lg:'1024',
-      xl:'1192',
+      md:'768px',
+      lg:'1024px',
+      xl:'1192px',
     },
     extend: {
       colors: {
-        primary: '#0E111d',
+        primary: '#0E1112',
         grey:'#484B4B',
 
         accent: '#EEF7F9',
