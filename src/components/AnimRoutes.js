@@ -13,10 +13,10 @@ const AnimRoutes = () => {
     return (
         <AnimatePresence inital={true} mode='wait'>
             <Routes key={location.pathname} location={location}>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/about' element={<About/>}/>
-                <Route path='/portfolio' element={<Portfolio/>}/>
-                <Route path='/contact' element={<Contact/>}/> 
+                <Route path='/' element={<Home />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/portfolio' element={<Portfolio />} />
+                <Route path='/contact' element={<Contact />} /> 
             </Routes>
         </AnimatePresence>
     );

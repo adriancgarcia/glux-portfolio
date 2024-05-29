@@ -1,17 +1,41 @@
-import React from 'react';
+import React, {useContext} from 'react';
 // import photo
 import EclipseImg from '../img/contact/SolarEclipse.jpg';
+// import motion
+import { motion } from 'framer-motion';
+// import transitions
+import { transition1 } from '../transitions';
+// import cursor context
+import { CursorContext } from '../context/CursorContext';
 
 const Contact =() => {
-    return (
-        <section className='section bg-white'>
+    const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+
+    return(
+        <motion.section 
+            intial={{ opacity: 0, y: '100%' }}
+            animate={{ opacity: 1, y: 0 }} 
+            exit={{ opacity: 0, y: '100%' }}
+            transition= {transition1} 
+            className='section bg-white'
+        >
             <div className='container mx-auto h-full'>
                 <div className='flex flex-col lg:flex-row h-full item-center justify-start pt-36 gap-x-8 text-center lg:text-left'>
                     {/* bg */}
-                    <div className='hidden lg:flex bg-[#eef7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'>   
-                    </div>
+                    <motion.div 
+                        intial={{ opacity: 0, y: '100%' }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: '100%' }}
+                        transition= {transition1} 
+                        className='hidden lg:flex bg-[#eef7f9] absolute bottom-0 left-0 right-0 top-72 -z-10'
+                    >   
+                    </motion.div>
                     {/* text & form */}
-                    <div className='lg:flex-1 lg:pt-32 px-4'>
+                    <div 
+                        onMouseEnter={mouseEnterHandler}
+                        onMouseLeave={mouseLeaveHandler}
+                        className='lg:flex-1 lg:pt-32 px-4'
+                    >
                         <h1 className='h1'>Contact Me</h1>
                         <p className='mb-12'>I would love to talk about your project</p>
                         {/* form  */}
@@ -37,12 +61,20 @@ const Contact =() => {
                         </form> 
                     </div>
                     {/* image */}
-                    <div className='lg:flex-1'>
+                    <motion.div 
+                        onMouseEnter={mouseEnterHandler}
+                        onMouseLeave={mouseLeaveHandler}
+                        intial={{ opacity: 0, y: '100%' }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: '100%' }}
+                        transition= {{ transition: transition1, duration: 1.5 }} 
+                        className='lg:flex-1'
+                    >
                         <img src={EclipseImg} alt='' />
-                    </div>
+                    </motion.div>
                 </div>
             </div>
-        </section>
+        </motion.section>
     );
 };
 
