@@ -4,7 +4,7 @@ module.exports = {
     "./src/**/*.{html,js}"]
     ,
   theme: {
-    fontfamily: {
+    fontFamily: {
       primary: 'Playfair Display',
       secondary: 'Mulish',
     },
