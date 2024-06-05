@@ -22,6 +22,7 @@ const Header =() => {
                 >
                     <img src={Logo} alt='' />
                 </Link>
+                <h1>G Lux Photo</h1>
 
                 {/* nav - initially hidden - show on desktop mode */}
                 <nav 

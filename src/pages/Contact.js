@@ -10,10 +10,11 @@ import { CursorContext } from '../context/CursorContext';
 
 const Contact =() => {
     const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
-
-    return(
+    // onMouseEnter={mouseEnterHandler}
+    // onMouseLeave={mouseLeaveHandler}
+    return (
         <motion.section 
-            intial={{ opacity: 0, y: '100%' }}
+            initial={{ opacity: 0, y: '100%' }}
             animate={{ opacity: 1, y: 0 }} 
             exit={{ opacity: 0, y: '100%' }}
             transition= {transition1} 
@@ -23,7 +24,7 @@ const Contact =() => {
                 <div className='flex flex-col lg:flex-row h-full item-center justify-start pt-36 gap-x-8 text-center lg:text-left'>
                     {/* bg */}
                     <motion.div 
-                        intial={{ opacity: 0, y: '100%' }}
+                        initial={{ opacity: 0, y: '100%' }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: '100%' }}
                         transition= {transition1} 
@@ -64,10 +65,10 @@ const Contact =() => {
                     <motion.div 
                         onMouseEnter={mouseEnterHandler}
                         onMouseLeave={mouseLeaveHandler}
-                        intial={{ opacity: 0, y: '100%' }}
+                        initial={{ opacity: 0, y: '100%' }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: '100%' }}
-                        transition= {{ transition: transition1, duration: 1.5 }} 
+                        transition= {transition1} 
                         className='lg:flex-1'
                     >
                         <img src={EclipseImg} alt='' />

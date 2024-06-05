@@ -14,7 +14,7 @@ const About =() => {
     const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext)
     return (
         <motion.section
-            intial={{ opacity: 0, y: '100%' }}
+            initial={{ opacity: 0, y: '100%' }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition= {transition1} 
@@ -33,7 +33,7 @@ const About =() => {
                 </div>
                 {/* text */}
                 <motion.div
-                    intial={{ opacity: 0, y: '-80%' }}
+                    initial={{ opacity: 0, y: '-80%' }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: '-80%' }}
                     transition= {transition1} 

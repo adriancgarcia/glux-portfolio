@@ -5,9 +5,9 @@ export const CursorContext = createContext();
 
 const CursorProvider = ({children}) => {
     // cursor position state
-    const [cursorPos, setCursorPos] = useState({
+    const [cursorPos, setCursorPos] = useState({ 
         x: 0,
-        y: 0,
+        y: 0, 
     });
     // cursor bg state
     const [cursorBG, setCursorBG] = useState('default');
@@ -16,7 +16,7 @@ const CursorProvider = ({children}) => {
 
     useEffect(() => {
         if (!mobileViewportIsActive) {
-            const move = (e) => {
+            const move = (e) => { 
                 setCursorPos({
                     x: e.clientX,
                     y: e.clientY,
@@ -46,7 +46,7 @@ const CursorProvider = ({children}) => {
             y:cursorPos.y -72,
             backgroundColor: '#fff',
             mixBlendMode: 'difference',
-        },
+        }, 
         none: {
             width: 0,
             height: 0,

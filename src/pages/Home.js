@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 // import images
-import AdrianImg from '../img/home/image-8.jpg';
+import RookeryImg from '../img/home/Adrian_Headshot.jpg';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -9,15 +9,15 @@ import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 // cursor context
 import { CursorContext } from '../context/CursorContext';
-
-const Home = () => {
+  
+const Home = () => {  
     const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
     return (
         <motion.section
-            intial={{ opacity: 0 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition= {transition1} 
+            transition= {transition1}
             className='section'
             >
             <div className='container mx-auto h-full relative'>
@@ -25,9 +25,9 @@ const Home = () => {
                 <div className='flex flex-col justify-center'>
                     {/* text */}
                     <motion.div 
-                        intial={{ opacity: 0, y: '-50%' }}
+                        initial={{ opacity: 0, y: '-50%' }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: '-50%' }}
+                        exit={{ opacity: 0, x: '-50%' }}
                         transition= {transition1}
                         onMouseEnter={mouseEnterHandler }
                         onMouseLeave={mouseLeaveHandler} 
@@ -40,18 +40,19 @@ const Home = () => {
                             Hire Me
                         </Link> 
                     </motion.div>
-                    {/* image */}
+                    {/* image */} 
                     <div className='flex justify-end max-h-96 lg:max-h-max'>
                         <motion.div 
-                            intial={{ scale: 0 }}
+                            initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
-                            exit={{ scale: 0 }} 
+                            exit={{ scale: 0 }}
                             transition= {transition1} 
                             className='relative lg:-right-40 overflow-hidden'>
                             <motion.img
                                 whileHover={{ scale: 1.1 }}
                                 transition={transition1}
-                                src={AdrianImg} alt='' />
+                                src={RookeryImg} alt='' 
+                            />
                         </motion.div>
                     </div>
                 </div>
