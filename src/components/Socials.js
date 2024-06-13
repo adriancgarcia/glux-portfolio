@@ -1,9 +1,9 @@
 import React, {useContext} from 'react';
 // import icons
-import {
-    ImFacebook,
-    ImInstagram,
-} from 'react-icons/im';
+// import {
+//     ImFacebook,
+//     ImInstagram,
+// } from 'react-icons/im';
 // import cursor context
 import { CursorContext } from '../context/CursorContext';
 
