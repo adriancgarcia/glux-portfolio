@@ -3,17 +3,10 @@ import React, { useContext } from 'react';
 import Image1 from '../img/portfolio/ACG_0025.jpg';
 import Image2 from '../img/portfolio/ACG_0032.jpg';
 import Image3 from '../img/portfolio/ACG_0080.jpg';
-import Image4 from '../img/portfolio/The_Rookery.jpg';
-import Image5 from '../img/portfolio/Navy_Pier2.JPG';
-import Image6 from '../img/portfolio/Navy_Pier1.JPG';
-import Image7 from '../img/portfolio/image-1.jpg';
-import Image8 from '../img/portfolio/image-2.jpg';
-import Image9 from '../img/portfolio/image-3.jpg';
-import Image10 from '../img/portfolio/image-4.jpg';
-import Image11 from '../img/portfolio/image-5.jpg';
-import Image12 from '../img/portfolio/image-6.jpg';
-import Image13 from '../img/portfolio/image-7.jpg';
-import Image14 from '../img/portfolio/image-8.jpg';
+import Image4 from '../img/portfolio/Navy_Pier1.JPG';
+// import Image5 from '../img/portfolio/The_Rookery.jpg';
+import Image6 from '../img/portfolio/Navy_Pier2.JPG';
+
 // import  Link
 import { Link } from 'react-router-dom';
 // import motion
@@ -57,46 +50,38 @@ const Portfolio =() => {
                     >
                         {/* image */}
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image1} alt=''/>
+                            <Link to={'/Weddings'}>
+                                <h2>Weddings</h2>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image1} alt=''/>
+                            </Link>
                         </div>
+
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image2} alt=''/>
+                            <Link to={'/maternity'}>
+                                    <h2>Maternity</h2>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image2} alt=''/>
+                            </Link >
                         </div>
+
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image3} alt=''/>
+                            <Link to={'/family'}>
+                                    <h2>Family Portraits</h2>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image6} alt=''/>
+                            </Link >    
                         </div>
+
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image4} alt=''/>
+                            <Link to={'/events'}>
+                                    <h2>Events</h2>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image3} alt=''/>
+                            </Link >    
                         </div>
+
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image5} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image6} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image7} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image8} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image9} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image10} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image11} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image12} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image13} alt=''/>
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image14} alt=''/>
+                            <Link to={'/headshots'}>
+                                    <h2>Headshots / Corporate</h2>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image4} alt=''/>
+                            </Link >    
                         </div>
                     </div>
                 </div>

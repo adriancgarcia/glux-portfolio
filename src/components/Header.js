@@ -18,11 +18,11 @@ const Header =() => {
                     onMouseEnter={mouseEnterHandler}
                     onMouseLeave={mouseLeaveHandler}
                     to={'/'} 
-                    className='max-w-[200px]' 
+                    className='max-w-[150px]' 
                 >
                     <img src={Logo} alt='' />
                 </Link>
-                <h1>G Lux Photo</h1>
+                {/* <h1>G Lux Photo</h1> */}
 
                 {/* nav - initially hidden - show on desktop mode */}
                 <nav 
