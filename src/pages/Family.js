@@ -1,19 +1,19 @@
 import React from 'react';
 // import images
-import Image1 from '../img/family/ACG_0025.jpg';
-import Image2 from '../img/family/ACG_0032.jpg';
-import Image3 from '../img/family/ACG_0080.jpg';
-import Image4 from '../img/family/The_Rookery.jpg';
-import Image5 from '../img/family/Navy_Pier2.JPG';
-import Image6 from '../img/family/Navy_Pier1.JPG';
-import Image7 from '../img/family/image-1.jpg';
-import Image8 from '../img/family/image-2.jpg';
-import Image9 from '../img/family/image-3.jpg';
-import Image10 from '../img/family/image-4.jpg';
-import Image11 from '../img/family/image-5.jpg';
-import Image12 from '../img/family/image-6.jpg';
-import Image13 from '../img/family/image-7.jpg';
-import Image14 from '../img/family/image-8.jpg';
+import Image1 from '../img/family/Candies_MaternityShoot_Morgan_0322.jpg';
+import Image2 from '../img/family/Candies_MaternityShoot_Morgan_0345.jpg';
+import Image3 from '../img/family/Candies_MaternityShoot_Morgan_0124.jpg';
+import Image4 from '../img/family/_ADR0236.jpg';
+import Image5 from '../img/family/_ADR0366.jpg';
+import Image6 from '../img/family/_ACG7477.jpg';
+import Image7 from '../img/family/_ACG7582.jpg';
+import Image8 from '../img/family/_ACG7697.jpg';
+import Image9 from '../img/family/_ACG7173.jpg';
+import Image10 from '../img/family/_ACG6997.jpg';
+import Image11 from '../img/family/_ACG6978.jpg';
+import Image12 from '../img/family/_ACG6528.jpg';
+import Image13 from '../img/family/_ACG6707.jpg';
+import Image14 from '../img/family/_ACG6573.jpg';
 // import  Link
 import { Link } from 'react-router-dom';
 // import motion
