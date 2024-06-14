@@ -75,12 +75,14 @@ const Contact =() => {
                                 type='text'
                                 name='user_name'
                                 placeholder='Your name'
+                                required
                             />
                                 <input
                                     className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                                     type='email'
                                     name='user_email'
                                     placeholder='Your email address'
+                                    required
                                 />
                                 </div>
                                 <textarea 
@@ -88,6 +90,7 @@ const Contact =() => {
                                     className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                                     type='text'
                                     placeholder='Your message'
+                                    required
                                 /> 
                                 {/* <input type="submit"
                                     value="Send"
