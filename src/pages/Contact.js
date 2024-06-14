@@ -111,7 +111,6 @@ const Contact =() => {
             </div>
         </motion.section>
     );
-
 };
 
 
