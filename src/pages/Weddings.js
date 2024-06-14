@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 // import images
 import Image1 from '../img/weddings/ACG_0025.jpg';
 import Image2 from '../img/weddings/ACG_0032.jpg';
@@ -21,10 +21,10 @@ import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
 // cursor context
-import { CursorContext } from '../context/CursorContext';
+// import { CursorContext } from '../context/CursorContext';
 
 const Weddings =() => {
-    const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+    // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
     return (
         <motion.section 
             initial={{ opacity: 0, y: '100%' }}
@@ -37,8 +37,8 @@ const Weddings =() => {
                 <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'>
                     {/* text */}
                     <motion.div 
-                        onMouseEnter={mouseEnterHandler}
-                        onMouseLeave={mouseLeaveHandler}
+                        // onMouseEnter={mouseEnterHandler}
+                        // onMouseLeave={mouseLeaveHandler}
                         initial={{ opacity: 0, y: '80%' }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: '80%' }}
@@ -51,8 +51,8 @@ const Weddings =() => {
                     </motion.div>
                     {/* image grid */}
                     <div 
-                        onMouseEnter={mouseEnterHandler}
-                        onMouseLeave={mouseLeaveHandler} 
+                        // onMouseEnter={mouseEnterHandler}
+                        // onMouseLeave={mouseLeaveHandler} 
                         className='grid grid-cols-2 lg:gap-2'
                     >
                         {/* image */}

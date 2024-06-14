@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 // import images
 import AdrianImg from '../img/about/Adrian_Headshot.jpg'
 // import Link
@@ -8,10 +8,10 @@ import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
 // cursorContext 
-import { CursorContext } from '../context/CursorContext';
+// import { CursorContext } from '../context/CursorContext';
 
 const About =() => {
-    const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext)
+    // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext)
     return (
         <motion.section
             initial={{ opacity: 0, y: '100%' }}
@@ -21,8 +21,8 @@ const About =() => {
             className='section'
         >
         <div 
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
+            // onMouseEnter={mouseEnterHandler}
+            // onMouseLeave={mouseLeaveHandler}
             className='container mx-auto h-full relative'
         >
             {/* text & image wrapper*/}

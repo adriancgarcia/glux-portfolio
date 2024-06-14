@@ -1,4 +1,4 @@
-import React, {useContext, useRef } from 'react';
+import React, { useRef } from 'react';
 // import photo
 import EclipseImg from '../img/contact/SolarEclipse.jpg';
 // import motion
@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 // import transitions
 import { transition1 } from '../transitions'; 
 // import cursor context
-import { CursorContext } from '../context/CursorContext';
+// import { CursorContext } from '../context/CursorContext';
 // import emailjs service
 import emailjs from '@emailjs/browser';
 
@@ -32,7 +32,7 @@ const Contact =() => {
         );
     };
 
-    const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+    // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
     // onMouseEnter={mouseEnterHandler}
     // onMouseLeave={mouseLeaveHandler}
     return (
@@ -56,8 +56,8 @@ const Contact =() => {
                     </motion.div>
                     {/* text & form */}
                     <div 
-                        onMouseEnter={mouseEnterHandler}
-                        onMouseLeave={mouseLeaveHandler}
+                        // onMouseEnter={mouseEnterHandler}
+                        // onMouseLeave={mouseLeaveHandler}
                         className='lg:flex-1 lg:pt-32 px-4'
                     >
                         <h1 className='h1'>Contact Me</h1>
@@ -97,8 +97,8 @@ const Contact =() => {
                     </div>
                     {/* image */}
                     <motion.div 
-                        onMouseEnter={mouseEnterHandler}
-                        onMouseLeave={mouseLeaveHandler}
+                        // onMouseEnter={mouseEnterHandler}
+                        // onMouseLeave={mouseLeaveHandler}
                         initial={{ opacity: 0, y: '100%' }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: '100%' }}
