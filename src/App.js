@@ -18,11 +18,11 @@ const App = () => {
         <AnimRoutes />
       </Router> 
       {/* cursor */}
-      <motion.div 
-        // variants={cursorVariants}
-        // animate={cursorBG}
+      {/* <motion.div 
+        variants={cursorVariants}
+        animate={cursorBG}
         className='w-[32px] h-[32px] bg-primary fixed top-0 left-0 pointer-events-none z-50 rounded-full'>
-      </motion.div>
+      </motion.div> */}
     </>
   );
 };
