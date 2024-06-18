@@ -66,14 +66,14 @@ const Portfolio =() => {
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
                             <Link to={'/family'}>
                                     <h2>Family Portraits</h2>
-                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image6} alt=''/>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image3} alt=''/>
                             </Link >    
                         </div>
 
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
                             <Link to={'/events'}>
                                     <h2>Events</h2>
-                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image3} alt=''/>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image6} alt=''/>
                             </Link >    
                         </div>
 
