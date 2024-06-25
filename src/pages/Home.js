@@ -1,6 +1,6 @@
 import React from 'react';
 // import images
-import RookeryImg from '../img/home/Adrian_Headshot.jpg';
+import AdrianImg from '../img/home/Adrian_Headshot.jpg';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -41,7 +41,7 @@ const Home = () => {
                         </Link> 
                     </motion.div>
                     {/* image */} 
-                    <div className='flex justify-end max-h-96 lg:max-h-max'>
+                    <div className='flex justify-end max-h-96 lg:max-h-max pt-[150px]'>
                         <motion.div 
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
@@ -51,7 +51,7 @@ const Home = () => {
                             <motion.img
                                 whileHover={{ scale: 1.1 }}
                                 transition={transition1}
-                                src={RookeryImg} alt='' 
+                                src={AdrianImg} alt='' 
                             />
                         </motion.div>
                     </div>
