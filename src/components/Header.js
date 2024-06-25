@@ -1,6 +1,6 @@
 import React from 'react';
 // import components
-// import Socials from './Socials';
+import Socials from './Socials';
 import Logo from '../img/header/camera-svgrepo.svg';
 import MobileNav from './MobileNav';
 // import Link
@@ -34,10 +34,10 @@ const Header =() => {
                     <Link to={'/about'} className='text-[#696c6d] hover:text-primary transition'>About</Link>
                     <Link to={'/portfolio'} className='text-[#696c6d] hover:text-primary transition'>Portfolio</Link>
                     <Link to={'/contact'} className='text-[#696c6d] hover:text-primary transition'>Contact</Link>
-                </nav>
+                </nav>  
             </div>
                 {/* socials */}
-                {/* <Socials /> */}
+                <Socials />
                 {/* MobileNav  */}
                 <MobileNav />
         </header>

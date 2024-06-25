@@ -10,14 +10,14 @@ import {
 const Socials =() => {
     // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
     
-    return (
+    return ( 
     
         <div 
             // onMouseEnter={mouseEnterHandler}
             // onMouseLeave={mouseLeaveHandler}
             className='hidden xl:flex ml-10'
         >
-            <ul className='flex gap-4'>
+            <ul className='flex gap-x-4'>
                 <li><a href='https://www.facebook.com/GLuxPhoto' target='_blank'><ImFacebook /></a>
                 </li>
                 <li><a href='https://www.instagram.com/gluxphoto' target='_blank'><ImInstagram /></a>
