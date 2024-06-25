@@ -18,9 +18,9 @@ const Socials =() => {
             className='hidden xl:flex ml-10'
         >
             <ul className='flex gap-x-4'>
-                <li><a href='https://www.facebook.com/GLuxPhoto' target='_blank'><ImFacebook /></a>
+                <li><a href='https://www.facebook.com/GLuxPhoto' target='_blank' rel='noreferrer'><ImFacebook /></a>
                 </li>
-                <li><a href='https://www.instagram.com/gluxphoto' target='_blank'><ImInstagram /></a>
+                <li><a href='https://www.instagram.com/gluxphoto' target='_blank' rel='noreferrer'><ImInstagram /></a>
                 </li>
             </ul>
         </div>
