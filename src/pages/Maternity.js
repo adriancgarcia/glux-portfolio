@@ -53,7 +53,7 @@ const Maternity =() => {
                     <div 
                         // onMouseEnter={mouseEnterHandler}
                         // onMouseLeave={mouseLeaveHandler} 
-                        className='grid grid-cols-2 lg:gap-2'
+                        className='grid grid-cols-3 grid-row-start-4 lg:gap-2 mt-[250px]'
                     >
                         {/* image */}
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>

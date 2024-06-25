@@ -442,8 +442,8 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   font-family: Mulish;
   --tw-text-opacity: 1;
-  color: rgb(14 17 18 / var(--tw-text-opacity));
-  /* overflow-hidden */
+  color: rgb(14 17 18 / var(--tw-text-opacity))
+  /* overflow-hidden; */
 }
 
 .h1 {

@@ -18,7 +18,7 @@ const Header =() => {
                     // onMouseEnter={mouseEnterHandler}
                     // onMouseLeave={mouseLeaveHandler}
                     to={'/'} 
-                    className='max-w-[150px]' 
+                    className='max-w-[100px]' 
                 >
                     <img src={Logo} alt='' />
                 </Link>
