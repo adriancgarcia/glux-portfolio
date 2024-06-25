@@ -1,6 +1,6 @@
 import React from 'react';
 // import components
-import Socials from './Socials';
+// import Socials from './Socials';
 import Logo from '../img/header/camera-svgrepo.svg';
 import MobileNav from './MobileNav';
 // import Link
@@ -37,7 +37,7 @@ const Header =() => {
                 </nav>
             </div>
                 {/* socials */}
-                <Socials />
+                {/* <Socials /> */}
                 {/* MobileNav  */}
                 <MobileNav />
         </header>
