@@ -17,13 +17,15 @@ const Header =() => {
                 <Link 
                     // onMouseEnter={mouseEnterHandler}
                     // onMouseLeave={mouseLeaveHandler}
-                    to={'/'} 
-                    className='max-w-[100px]' 
+                    to={'/'}
                 >
+                <div className="flex flex-row justify-around max-w-[90px]">
                     <img src={Logo} alt='' />
+                    <h1 className="h1 pl-5 pt-5 text-3xl">G Lux Photo</h1>  
+                </div>   
                 </Link>
-                {/* <h1>G Lux Photo</h1> */}
-
+                
+               
                 {/* nav - initially hidden - show on desktop mode */}
                 <nav 
                     // onMouseEnter={mouseEnterHandler}

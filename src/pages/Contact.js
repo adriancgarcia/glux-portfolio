@@ -60,7 +60,8 @@ const Contact =() => {
                         // onMouseLeave={mouseLeaveHandler}
                         className='lg:flex-1 lg:pt-32 px-4'
                     >
-                        <h1 className='h1'>Contact Me</h1>
+                        <h1 className='h1'>Let's Talk!
+                        </h1>
                         <p className='mb-12'>I would love to talk about your project</p>
                         {/* form  */}
                         <form className='flex flex-col gap-y-4'
