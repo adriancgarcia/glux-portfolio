@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -442,8 +442,8 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   font-family: Mulish;
   --tw-text-opacity: 1;
-  color: rgb(14 17 18 / var(--tw-text-opacity))
-  /* overflow-hidden; */
+  color: rgb(14 17 18 / var(--tw-text-opacity));
+  /* overflow-hidden */
 }
 
 .h1 {
@@ -599,6 +599,12 @@ body {
   width: 100%;
 }
 
+@media (min-width: 425px) {
+  .container {
+    max-width: 425px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -708,8 +714,12 @@ body {
   margin-bottom: 30px;
 }
 
-.ml-24 {
-  margin-left: 6rem;
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mt-\[250px\] {
+  margin-top: 250px;
 }
 
 .flex {
@@ -760,12 +770,16 @@ body {
   width: 100%;
 }
 
-.max-w-\[200px\] {
-  max-width: 200px;
-}
-
 .max-w-\[250px\] {
   max-width: 250px;
+}
+
+.max-w-\[90px\] {
+  max-width: 90px;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .max-w-sm {
@@ -788,6 +802,14 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -800,10 +822,6 @@ body {
   justify-content: flex-start;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -812,12 +830,12 @@ body {
   justify-content: space-between;
 }
 
-.gap-12 {
-  gap: 3rem;
+.justify-around {
+  justify-content: space-around;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-x-10 {
@@ -826,6 +844,10 @@ body {
 
 .gap-x-24 {
   column-gap: 6rem;
+}
+
+.gap-x-4 {
+  column-gap: 1rem;
 }
 
 .gap-x-8 {
@@ -911,12 +933,32 @@ body {
   padding-left: 0.75rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pr-\[0px\] {
+  padding-right: 0px;
+}
+
+.pr-\[90px\] {
+  padding-right: 90px;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
 
 .pt-36 {
   padding-top: 9rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
 }
 
 .text-center {
@@ -1006,6 +1048,12 @@ body {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(14 17 18 / var(--tw-text-opacity));
+}
+
+@media (min-width: 425px) {
+  .xs\:h-auto {
+    height: auto;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1098,6 +1146,10 @@ body {
 
   .lg\:pt-36 {
     padding-top: 9rem;
+  }
+
+  .lg\:pt-40 {
+    padding-top: 10rem;
   }
 
   .lg\:text-left {

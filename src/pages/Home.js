@@ -49,7 +49,7 @@ const Home = () => {
                             transition= {transition1} 
                             className='relative lg:-right-40 overflow-hidden'>
                             <motion.img
-                                className='h-auto max-w-sm lg:max-w-md'
+                                className='xs:h-auto max-w-lg pr-[90px]  lg: pr-[0px]'
                                 whileHover={{ scale: 1.1 }}
                                 transition={transition1}
                                 src={AdrianImg} alt='' 
