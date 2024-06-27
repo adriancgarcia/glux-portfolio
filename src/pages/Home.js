@@ -22,7 +22,7 @@ const Home = () => {
             >
             <div className='container mx-auto h-full relative'>
                 {/* text & img wrapper */}
-                <div className='flex flex-col justify-center lg:pt-40'>
+                <div className='flex flex-col xs:justify-center pt-5 lg:pt-60 justify-start'>
                     {/* text */}
                     <motion.div 
                         initial={{ opacity: 0, y: '-50%' }}
@@ -32,12 +32,12 @@ const Home = () => {
                         // onMouseEnter={mouseEnterHandler }
                         // onMouseLeave={mouseLeaveHandler} 
                         className='w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'>
-                        <h1 className='h1'>
-                            G Lux <br /> Photo 
+                        <h1 className='h1 xs:pb-4 lg:w-[300px] '>
+                            G Lux Photo 
                         </h1>  
-                        <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>Chicago, IL</p>
-                        <Link to ={'/contact'} className='btn mb-[30px]'>
-                            Hire Me
+                        {/* <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>Chicago, IL</p> */}
+                        <Link to ={'/portfolio'} className='btn'>
+                            View My Work
                         </Link> 
                     </motion.div>
                     {/* image */} 
@@ -49,7 +49,7 @@ const Home = () => {
                             transition= {transition1} 
                             className='relative lg:-right-40 overflow-hidden'>
                             <motion.img
-                                className='xs:h-auto max-w-lg pr-[90px]  lg: pr-[0px]'
+                                className='xs:h-auto max-w-lg pr-40 lg:pr-[0px] h-auto max-w-xl'
                                 whileHover={{ scale: 1.1 }}
                                 transition={transition1}
                                 src={AdrianImg} alt='' 
