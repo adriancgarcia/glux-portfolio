@@ -22,7 +22,7 @@ const Home = () => {
             >
             <div className='container mx-auto h-full relative'>
                 {/* text & img wrapper */}
-                <div className='flex flex-col justify-center pt-2 lg:pt-40'>
+                <div className='flex flex-col justify-center lg:pt-40'>
                     {/* text */}
                     <motion.div 
                         initial={{ opacity: 0, y: '-50%' }}
@@ -49,7 +49,7 @@ const Home = () => {
                             transition= {transition1} 
                             className='relative lg:-right-40 overflow-hidden'>
                             <motion.img
-                                className='h-auto max-w-lg lg:max-w-md'
+                                className='h-auto max-w-sm lg:max-w-md'
                                 whileHover={{ scale: 1.1 }}
                                 transition={transition1}
                                 src={AdrianImg} alt='' 
