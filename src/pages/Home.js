@@ -31,8 +31,8 @@ const Home = () => {
                         transition= {transition1}
                         // onMouseEnter={mouseEnterHandler }
                         // onMouseLeave={mouseLeaveHandler} 
-                        className='w-full xs:pt-32 pb-8 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'>
-                        <h1 className='h1 xs:pb-2 lg:w-[300px] '>
+                        className='w-full xs:pt-32 pb-8 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start pl-9'>
+                        <h1 className='h1 xs:pb-2 lg:w-[300px]'>
                             G Lux Photo 
                         </h1>  
                         {/* <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>Chicago, IL</p> */}
@@ -49,7 +49,7 @@ const Home = () => {
                             transition= {transition1} 
                             className='relative lg:-right-40 overflow-hidden'>
                             <motion.img
-                                className='xs:h-auto pr-40 lg:h-auto pr-[0px]'
+                                // className='xs:h-auto'
                                 whileHover={{ scale: 1.1 }}
                                 transition={transition1}
                                 src={AdrianImg} alt='' 
