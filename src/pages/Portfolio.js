@@ -27,7 +27,7 @@ const Portfolio =() => {
             className='section'
         >
             <div className='container mx-auto h-full relative'>
-                <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'>
+                <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-36 lg:pt-36 pb-8'>
                     {/* text */}
                     <motion.div 
                         // onMouseEnter={mouseEnterHandler}
@@ -39,8 +39,8 @@ const Portfolio =() => {
                         className='flex flex-col lg:items-start'
                     >
                         <h1 className='h1'>My Work</h1>
-                        <p className='mb-12 max-w-sm'></p>
-                        <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Schedule Appointment</Link>
+                        <p className='mb-6 max-w-sm'></p>
+                        <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Schedule An Appointment</Link>
                     </motion.div>
                     {/* image grid */}
                     <div 

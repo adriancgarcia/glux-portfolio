@@ -19,7 +19,7 @@ const Header =() => {
                     // onMouseLeave={mouseLeaveHandler}
                     to={'/'}
                 >
-                <div className="flex flex-row justify-around max-w-[90px]">
+                <div className="flex flex-row justify-around max-w-[90px] pl-2">
                     <img src={Logo} alt='' />
                     <h1 className="h1 pl-5 pt-5 text-3xl">G Lux Photo</h1>  
                 </div>   

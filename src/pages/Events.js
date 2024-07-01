@@ -34,7 +34,7 @@ const Events =() => {
             className='section'
         >
             <div className='container mx-auto h-full relative'>
-                <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-24 lg:pt-36 pb-8'>
+                <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-36 lg:pt-36 pb-8'>
                     {/* text */}
                     <motion.div 
                         // onMouseEnter={mouseEnterHandler}
@@ -53,7 +53,7 @@ const Events =() => {
                     <div 
                         // onMouseEnter={mouseEnterHandler}
                         // onMouseLeave={mouseLeaveHandler} 
-                        className='grid grid-cols-3 grid-row-start-4 lg:gap-2 mt-[250px]'
+                        className='grid grid-cols-3 grid-row-start-4 lg:gap-2 mt-4'
                     >
                         {/* image */}
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
