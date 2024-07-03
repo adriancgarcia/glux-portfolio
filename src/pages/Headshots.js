@@ -45,7 +45,7 @@ const Headshots =() => {
                         transition= {transition1} 
                         className='flex flex-col lg:items-start'
                     >
-                        <h1 className='h1 ml-4'>Headshots / Corporate</h1>
+                        <h1 className='h1 ml-4'>Headshots</h1>
                         <p className='mb-12 max-w-sm'></p>
                         <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Let's Work Together</Link>
                     </motion.div>

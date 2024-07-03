@@ -22,7 +22,7 @@ const Home = () => {
             >
             <div className='container mx-auto h-full relative'>
                 {/* text & img wrapper */}
-                <div className='flex flex-col xs:justify-center pt-2 lg:pt-60 justify-start'>
+                <div className='flex flex-col xs:justify-center pt-2 lg:pt-[200px]'> 
                     {/* text */}
                     <motion.div 
                         initial={{ opacity: 0, y: '-50%' }}
@@ -31,8 +31,8 @@ const Home = () => {
                         transition= {transition1}
                         // onMouseEnter={mouseEnterHandler }
                         // onMouseLeave={mouseLeaveHandler} 
-                        className='w-full xs:pt-32 pb-8 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start pl-9'>
-                        <h1 className='h1 xs:pb-2 lg:w-[300px]'>
+                        className='w-full xs:pt-32 pb-8 lg:pt-32 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start lg:pl-32'>
+                        <h1 className='h1 xs:pb-2 lg:w-[400px]'>
                             G Lux Photo 
                         </h1>  
                         {/* <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>Chicago, IL</p> */}
@@ -41,13 +41,13 @@ const Home = () => {
                         </Link> 
                     </motion.div>
                     {/* image */} 
-                    <div className='flex justify-center max-h-96 lg:max-h-max'>
+                    <div className='flex justify-center max-h-96 lg: h-full max-h-[650px]'>
                         <motion.div 
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}
                             exit={{ scale: 0 }}
                             transition= {transition1} 
-                            className='relative lg:-right-40 overflow-hidden'>
+                            className='relative lg:-right-72 overflow-hidden'>
                             <motion.img
                                 // className='xs:h-auto'
                                 whileHover={{ scale: 1.1 }}
