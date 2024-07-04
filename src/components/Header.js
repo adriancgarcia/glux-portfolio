@@ -11,15 +11,15 @@ import { Link } from 'react-router-dom';
 const Header =() => {
     // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
     return (
-        <header className='fixed w-full px-[30px] lg:px-[100] z-30 h-[100px] lg:h-[140px] flex items-center pt-6 h-ecreen overflow-hidden'>
-            <div className="flex flex-col flex-1 overflow-y-scroll lg:flex-row lg:items-center w-full justify-between pl-20 xs: scroll-pl-20">
+        <header className='fixed w-full px-[30px] lg:px-[100] z-30 h-[100px] lg:h-[140px] flex items-center bg-white'>
+            <div className="flex flex-col xs: pt-4 lg:flex-row lg:items-center w-full justify-between">
                 {/* logo */}
                 <Link 
                     // onMouseEnter={mouseEnterHandler}
                     // onMouseLeave={mouseLeaveHandler}
                     to={'/'}
-                >
-                <div className="flex flex-row justify-around max-w-[90px] pl-2">
+            >
+                <div className="flex flex-row justify-around max-w-[90px]">
                     <img src={Logo} alt='' />
                     <h1 className="h1 pl-5 pt-5 text-3xl">G Lux Photo</h1>  
                 </div>   
