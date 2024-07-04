@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom';
 const Header =() => {
     // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
     return (
-        <header className='fixed w-full px-[30px] lg:px-[100] z-30 h-[100px] lg:h-[140px] flex items-center bg-white'>
-            <div className="flex flex-col xs: pt-4 lg:flex-row lg:items-center w-full justify-between">
+        <header className='fixed w-full px-[30px] lg:px-[100] z-30 h-[100px] lg:h-[140px] flex items-center'>
+            <div className="flex flex-col xs:pt-8 xs:pl-4 lg:pl-20 lg:flex-row lg:items-center w-full justify-between">
                 {/* logo */}
                 <Link 
                     // onMouseEnter={mouseEnterHandler}

@@ -41,7 +41,7 @@ const Home = () => {
                         </Link> 
                     </motion.div>
                     {/* image */} 
-                    <div className='flex flex-1 justify-center xs:max-h- xs:max-h-[350px] lg:h-full lg:max-h-[600px] '>
+                    <div className='flex flex-1 justify-center xs:max-h- xs:max-h-[450px] lg:h-full lg:max-h-[600px] '>
                         <motion.div 
                             initial={{ scale: 0 }}
                             animate={{ scale: 1 }}

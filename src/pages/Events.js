@@ -34,7 +34,7 @@ const Events =() => {
             className='section'
         >
             <div className='container mx-auto h-full relative'>
-                <div className='flex flex-col xs: pt-36 xs:text-center lg:flex-row h-full items-center justify-start gap-x-24 lg:text-left lg:pt-[600px] pb-8'>
+                <div className='flex flex-col xs: pt-36 xs:text-center lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left lg:pt-[500px] pb-8'>
                     {/* text */}
                     <motion.div 
                         // onMouseEnter={mouseEnterHandler}
