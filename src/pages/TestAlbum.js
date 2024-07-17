@@ -7,13 +7,13 @@ import React, { useState } from 'react';
 // ------ importing lightbox -------
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-
 import { slides } from '../test';
-
+import { Fullscreen, Thumbnails } from "yet-another-react-lightbox/plugins";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 // import  Link
 import { Link } from 'react-router-dom';
-// import motion
+// import motion 
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
@@ -24,8 +24,6 @@ const TestAlbum = () => {
 
     return (
         <>
-    
-    
         <motion.section 
             initial={{ opacity: 0, y: '100%' }}
             animate={{ opacity: 1, y: 0 }}
@@ -49,15 +47,18 @@ const TestAlbum = () => {
                     </motion.div>
 
                     {/* image grid */}
-
+                    <div 
+                        className='grid grid-cols-1 grid-row-start-4 lg:gap-2'
+                    >
                     <button onClick={() => setOpen(true)}>Open Lightbox</button>
-                    <Lightbox open={open} slides={slides} close={() => setOpen(false)}/>
-                        <div 
-                            className='grid grid-cols-1 grid-row-start-4 lg:gap-2'
-                        >
+                    <Lightbox 
+                        plugins={[Fullscreen, Thumbnails]}
+                        open={open} 
+                        slides={slides} 
+                        close={() => setOpen(false)}
+                    />
 
-
-                        </div>
+                    </div>
                 </div>
             </div>
         </motion.section> 
