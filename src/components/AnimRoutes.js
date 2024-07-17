@@ -9,7 +9,7 @@ import Maternity from '../pages/Maternity';
 import Events from '../pages/Events';
 import Headshots from '../pages/Headshots';
 import Family from '../pages/Family';
-import TestAlbum from '../pages/Events';
+import TestAlbum from '../pages/TestAlbum';
 
 // import routes route and useLocation  hook
 import { Route, Routes, useLocation } from 'react-router-dom';
@@ -24,11 +24,11 @@ const AnimRoutes = () => {
                     <Route path='/about' element={<About />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                      <Route path='/contact' element={<Contact />} />
-                     <Route path='/weddings' element={<Weddings />} />  
-                     <Route path='/events' element={<Events />} /> 
+                     <Route path='/weddings' element={<Weddings />} />
                      <Route path='/maternity' element={<Maternity />} /> 
+                     <Route path='/family' element={<Family />} />
+                     <Route path='/events' element={<Events />} /> 
                      <Route path='/headshots' element={<Headshots />} />
-                     <Route path='/family' element={<Family />} /> 
                      <Route path='/testalbum' element={<TestAlbum />} />  
                 </Routes>
             </AnimatePresence>
