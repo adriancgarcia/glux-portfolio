@@ -9,6 +9,8 @@ import Maternity from '../pages/Maternity';
 import Events from '../pages/Events';
 import Headshots from '../pages/Headshots';
 import Family from '../pages/Family';
+import TestAlbum from '../pages/Events';
+
 // import routes route and useLocation  hook
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
@@ -26,7 +28,8 @@ const AnimRoutes = () => {
                      <Route path='/events' element={<Events />} /> 
                      <Route path='/maternity' element={<Maternity />} /> 
                      <Route path='/headshots' element={<Headshots />} />
-                     <Route path='/family' element={<Family />} />  
+                     <Route path='/family' element={<Family />} /> 
+                     <Route path='/testalbum' element={<TestAlbum />} />  
                 </Routes>
             </AnimatePresence>
     );

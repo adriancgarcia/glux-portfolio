@@ -50,7 +50,7 @@ const Portfolio =() => {
                     >
                         {/* image */}
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
-                            <Link to={'/Weddings'}>
+                            <Link to={'/weddings'}>
                                 <h2>Weddings</h2>
                                 <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image1} alt=''/>
                             </Link>
@@ -80,6 +80,12 @@ const Portfolio =() => {
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
                             <Link to={'/headshots'}>
                                     <h2>Headshots</h2>
+                                <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image4} alt=''/>
+                            </Link >    
+                        </div>
+                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
+                            <Link to={'/testalbum'}>
+                                    <h2>Test Album</h2>
                                 <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image4} alt=''/>
                             </Link >    
                         </div>
