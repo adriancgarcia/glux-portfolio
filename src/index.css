@@ -17,7 +17,7 @@
     @apply py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-primary text-white;
   }
   
-  .images-container {
+  /* .images-container {
     max-width: 1200px;
     margin: 2rem auto;
     display: grid;
@@ -36,5 +36,5 @@
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
-  }
+  } */
 }
