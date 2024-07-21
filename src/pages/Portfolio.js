@@ -4,9 +4,9 @@ import Image1 from '../img/portfolio/ACG_0025.jpg';
 import Image2 from '../img/portfolio/ACG_0032.jpg';
 import Image3 from '../img/portfolio/Candies_MaternityShoot_Morgan_0322.jpg';
 import Image4 from '../img/portfolio/Navy_Pier1.JPG';
-// import Image5 from '../img/portfolio/The_Rookery.jpg';
+import Image5 from '../img/portfolio/The_Rookery.jpg';
 import Image6 from '../img/portfolio/Navy_Pier2.JPG';
-import Image5 from '../img/portfolio/The_Rookery.jpg'
+
 
 
 // import  Link
