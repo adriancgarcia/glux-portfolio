@@ -1,30 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import images
-import Image1 from '../img/family/Candies_MaternityShoot_Morgan_0322.jpg';
-import Image2 from '../img/family/Candies_MaternityShoot_Morgan_0345.jpg';
-import Image3 from '../img/family/Candies_MaternityShoot_Morgan_0124.jpg';
-import Image4 from '../img/family/_ADR0236.jpg';
-import Image5 from '../img/family/_ADR0366.jpg';
-import Image6 from '../img/family/_ACG7477.jpg';
-import Image7 from '../img/family/_ACG7582.jpg';
-import Image8 from '../img/family/_ACG7697.jpg';
-import Image9 from '../img/family/_ACG7173.jpg';
-import Image10 from '../img/family/_ACG6997.jpg';
-import Image11 from '../img/family/_ACG6978.jpg';
-import Image12 from '../img/family/_ACG6528.jpg';
-import Image13 from '../img/family/_ACG6707.jpg';
-import Image14 from '../img/family/_ACG6573.jpg';
+// import Image1 from '../img/family/Candies_MaternityShoot_Morgan_0322.jpg';
+// import Image2 from '../img/family/Candies_MaternityShoot_Morgan_0345.jpg';
+// import Image3 from '../img/family/Candies_MaternityShoot_Morgan_0124.jpg';
+// import Image4 from '../img/family/_ADR0236.jpg';
+// import Image5 from '../img/family/_ADR0366.jpg';
+// import Image6 from '../img/family/_ACG7477.jpg';
+// import Image7 from '../img/family/_ACG7582.jpg';
+// import Image8 from '../img/family/_ACG7697.jpg';
+// import Image9 from '../img/family/_ACG7173.jpg';
+// import Image10 from '../img/family/_ACG6997.jpg';
+// import Image11 from '../img/family/_ACG6978.jpg';
+// import Image12 from '../img/family/_ACG6528.jpg';
+// import Image13 from '../img/family/_ACG6707.jpg';
+// import Image14 from '../img/family/_ACG6573.jpg';
+
+// ------ importing lightbox -------
+import Lightbox from "yet-another-react-lightbox"; 
+import "yet-another-react-lightbox/styles.css";
+import { familyImages } from '../familyImages';
+import { Fullscreen, Thumbnails } from "yet-another-react-lightbox/plugins";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+
 // import  Link
 import { Link } from 'react-router-dom';
 // import motion
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
+
+import Images from '../images';
+
 // cursor context
 // import { CursorContext } from '../context/CursorContext';
 
 const Family =() => {
     // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+    const [index, setIndex] = useState(-1);
+
     return (
         <motion.section 
             initial={{ opacity: 0, y: '100%' }}
@@ -54,10 +67,28 @@ const Family =() => {
                     <div 
                         // onMouseEnter={mouseEnterHandler}
                         // onMouseLeave={mouseLeaveHandler} 
-                        className='grid grid-cols-3 grid-row-start-4 lg:gap-2 cursor-pointer'
+                        className='grid grid-cols-1 grid-row-start-4 lg:gap-2 cursor-pointer'
                     >
+
+                    <Images 
+                        data={familyImages} 
+                        onClick={(currentIndex) => setIndex(currentIndex)} 
+                    />
+
+                    <Lightbox 
+                        plugins={[Fullscreen, Thumbnails]}
+                        // open={open} 
+                        // close={() => setOpen(false)}
+
+                        index={index}
+                        open={index >= 0}
+                        close={() => setIndex(-1)}
+                        slides={familyImages}
+                    />
+
+
                         {/* image */}
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden mt-1000'>
+                        {/* <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden mt-1000'>
                             <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image1} alt=''/>
                         </div>
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden mt-1000'>
@@ -98,7 +129,7 @@ const Family =() => {
                         </div>
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
                             <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image14} alt=''/>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>
