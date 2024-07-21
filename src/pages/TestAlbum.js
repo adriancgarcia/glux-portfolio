@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 // import photos from "/img/testalbum";
 
 // ------ importing lightbox -------
-import Lightbox from "yet-another-react-lightbox";
+import Lightbox from "yet-another-react-lightbox"; 
 import "yet-another-react-lightbox/styles.css";
 import { slides } from '../test';
 import { Fullscreen, Thumbnails } from "yet-another-react-lightbox/plugins";
@@ -17,10 +17,11 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
-
+import Images from '../images';
 
 const TestAlbum = () => {
-    const [open, setOpen] = useState(false)
+    // const [open, setOpen] = useState(false)
+    const [index, setIndex] = useState(-1);
 
     return (
         <>
@@ -50,12 +51,22 @@ const TestAlbum = () => {
                     <div 
                         className='grid grid-cols-1 grid-row-start-4 lg:gap-2'
                     >
-                    <button onClick={() => setOpen(true)}>Open Lightbox</button>
+                    {/* <button onClick={() => setOpen(true)}>Open Lightbox</button> */}
+
+                    <Images 
+                        data={slides} 
+                        onClick={(currentIndex) => setIndex(currentIndex)} 
+                    />
+
                     <Lightbox 
                         plugins={[Fullscreen, Thumbnails]}
-                        open={open} 
-                        slides={slides} 
-                        close={() => setOpen(false)}
+                        // open={open} 
+                        // close={() => setOpen(false)}
+
+                        index={index}
+                        open={index >= 0}
+                        close={() => setIndex(-1)}
+                        slides={slides}
                     />
 
                     </div>
