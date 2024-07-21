@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import components    
 import Header from './components/Header';
 import AnimRoutes from './components/AnimRoutes';
 // import router
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import Lightbox from "yet-another-react-lightbox";
+// import Lightbox from "yet-another-react-lightbox";
 // import motion
 // import { motion } from 'framer-motion';
 // import { CursorContext } from './context/CursorContext'; 

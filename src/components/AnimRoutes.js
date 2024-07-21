@@ -29,7 +29,7 @@ const AnimRoutes = () => {
                      <Route path='/family' element={<Family />} />
                      <Route path='/events' element={<Events />} /> 
                      <Route path='/headshots' element={<Headshots />} />
-                     <Route path='/testalbum' element={<TestAlbum />} />  
+                     <Route path='/test' element={<TestAlbum />} />  
                 </Routes>
             </AnimatePresence>
     );
