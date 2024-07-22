@@ -1,72 +1,82 @@
 export const maternityImages = [
     {
-        src: '../img/maternity/ACG_0025.jpg',
+        src: '../img/maternity/_ACG0975.jpg',
         title: 'Image1',
         description: '',
     },
     {
-        src: '../img/maternity/ACG_0032.jpg',
+        src: '../img/maternity/_ACG1135.jpg',
         title: 'Image2',
         description: '',
     },
 
     {
-        src: '../img/maternity/ACG_0080.jpg',
+        src: '../img/maternity/_ACG1257.jpg',
         title: 'Image3',
         description: '',
     },
     {
-        src: '../img/maternity/The_Rookery.jpg',
+        src: '../img/maternity/_ACG1319.jpg',
         title: 'Image4',
         description: '',
     },
     {
-        src: '../img/maternity/Navy_Pier2.JPG',
+        src: '../img/maternity/_ACG1761.JPG',
         title: 'Image5',
         description: '',
     },
     {
-        src: '../img/maternity/Navy_Pier1.JPG',
+        src: '../img/maternity/_ACG1811.JPG',
         title: 'Image6',
         description: '',
     },
     {
-        src: '../img/maternity/image-1.jpg',
+        src: '../img/maternity/_ADR0110.jpg',
         title: 'Image7',
         description: '',
     },
     {
-        src: '../img/maternity/image-2.jpg',
+        src: '../img/maternity/_ADR0361.jpg',
         title: 'Image8',
         description: '',
     },
     {
-        src: '../img/maternity/image-3.jpg',
+        src: '../img/maternity/ACG_Jade_Maternity_Proof_0002.jpg',
         title: 'Image9',
         description: '',
     },
     {
-        src: '../img/maternity/image-4.jpg',
+        src: '../img/maternity/ACG_Jade_Maternity_Proof_0003.jpg',
         title: 'Image10',
         description: '',
     },
     {
-        src: '../img/maternity/image-5.jpg',
+        src: '../img/maternity/ACG_Jade_Maternity_Proof_0004.jpg',
         title: 'Image11',
         description: '',
     },
     {
-        src: '../img/maternity/image-6.jpg',
+        src: '../img/maternity/meia_0003.jpg',
         title: 'Image12',
         description: '',
     },
     {
-        src: '../img/maternity/image-7.jpg',
+        src: '../img/maternity/Meia_BabyBump_MilkBath0003.jpg',
         title: 'Image13',
         description: '',
     },
     {
-        src: '../img/maternity/image-8.jpg',
+        src: '../img/maternity/Meia_BabyBump_PhoenixGardens_0005.jpg',
+        title: 'Image14',
+        description: '',
+    },
+    {
+        src: '../img/maternity/Meia_BabyBump_PhoenixGardens_0006.jpg',
+        title: 'Image14',
+        description: '',
+    },
+    {
+        src: '../img/maternity/Meia.jpg',
         title: 'Image14',
         description: '',
     },
