@@ -1,6 +1,31 @@
 export const maternityImages = [
     {
-        src: '../img/maternity/_ACG0975.jpg',
+        src: '../img/maternity/KV1.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/maternity/KV3.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/maternity/KV6.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/maternity/KV8.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/maternity/KV9.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/maternity/KV10.jpg',
         title: 'Image1',
         description: '',
     },

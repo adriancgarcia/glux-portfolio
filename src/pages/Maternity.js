@@ -30,7 +30,7 @@ const Maternity = () => {
             className='section'
         >
             <div className='container mx-auto h-full relative'>
-                <div className='flex flex-col xs: pt-36 xs:text-center lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left lg:pt-[500px] pb-8'>
+                <div className='flex flex-col xs: pt-40 xs:text-center lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left lg:pt-[800px] pb-8'>
                     {/* text */}
                     <motion.div 
                         initial={{ opacity: 0, y: '80%' }}
@@ -39,14 +39,14 @@ const Maternity = () => {
                         transition= {transition1} 
                         className='flex flex-col lg:items-start'
                     >
-                        <h1 className='h1'>Maternity Album</h1>
+                        <h1 className='h1'>Maternity</h1>
                         <p className='mb-12 max-w-sm'></p>
                         <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Let's Work Together</Link>
                     </motion.div>
 
                     {/* image grid */}
                     <div 
-                        className='grid grid-cols-1 grid-row-start-4 lg:gap-2 cursor-pointer'
+                        className='grid grid-cols-1 grid-row-start-4xs: pt-[40px] xs:gap-6 lg:gap-2 cursor-pointer'
                     >
                     {/* <button onClick={() => setOpen(true)}>Open Lightbox</button> */}
 

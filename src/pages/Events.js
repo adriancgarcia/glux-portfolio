@@ -1,19 +1,4 @@
 import React, { useState } from 'react';
-// import images
-// import Image1 from '../img/events/ACG_0025.jpg';
-// import Image2 from '../img/events/ACG_0032.jpg';
-// import Image3 from '../img/events/ACG_0080.jpg';
-// import Image4 from '../img/events/The_Rookery.jpg';
-// import Image5 from '../img/events/Navy_Pier2.JPG';
-// import Image6 from '../img/events/Navy_Pier1.JPG';
-// import Image7 from '../img/events/image-1.jpg';
-// import Image8 from '../img/events/image-2.jpg';
-// import Image9 from '../img/events/image-3.jpg';
-// import Image10 from '../img/events/image-4.jpg';
-// import Image11 from '../img/events/image-5.jpg';
-// import Image12 from '../img/events/image-6.jpg';
-// import Image13 from '../img/events/image-7.jpg';
-// import Image14 from '../img/events/image-8.jpg';
 
 // ------ importing lightbox -------
 import Lightbox from "yet-another-react-lightbox"; 

@@ -1,19 +1,4 @@
 import React, { useState } from 'react';
-// import images
-// import Image1 from '../img/family/Candies_MaternityShoot_Morgan_0322.jpg';
-// import Image2 from '../img/family/Candies_MaternityShoot_Morgan_0345.jpg';
-// import Image3 from '../img/family/Candies_MaternityShoot_Morgan_0124.jpg';
-// import Image4 from '../img/family/_ADR0236.jpg';
-// import Image5 from '../img/family/_ADR0366.jpg';
-// import Image6 from '../img/family/_ACG7477.jpg';
-// import Image7 from '../img/family/_ACG7582.jpg';
-// import Image8 from '../img/family/_ACG7697.jpg';
-// import Image9 from '../img/family/_ACG7173.jpg';
-// import Image10 from '../img/family/_ACG6997.jpg';
-// import Image11 from '../img/family/_ACG6978.jpg';
-// import Image12 from '../img/family/_ACG6528.jpg';
-// import Image13 from '../img/family/_ACG6707.jpg';
-// import Image14 from '../img/family/_ACG6573.jpg';
 
 // ------ importing lightbox -------
 import Lightbox from "yet-another-react-lightbox"; 
