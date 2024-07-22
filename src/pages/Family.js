@@ -18,7 +18,7 @@ import React, { useState } from 'react';
 // ------ importing lightbox -------
 import Lightbox from "yet-another-react-lightbox"; 
 import "yet-another-react-lightbox/styles.css";
-import { familyImages } from '../familyImages';
+import { familyImages } from '../data/familyImages';
 import { Fullscreen, Thumbnails } from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
