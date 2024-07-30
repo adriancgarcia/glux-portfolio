@@ -85,12 +85,12 @@ const Portfolio =() => {
                                 <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image4} alt=''/>
                             </Link >    
                         </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
+                        {/* <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
                             <Link to={'/testalbum'}>
                                     <h2>Test Album</h2>
                                 <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image4} alt=''/>
                             </Link >    
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
