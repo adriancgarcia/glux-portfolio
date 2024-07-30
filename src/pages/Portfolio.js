@@ -48,7 +48,7 @@ const Portfolio =() => {
                     <div 
                         // onMouseEnter={mouseEnterHandler}
                         // onMouseLeave={mouseLeaveHandler} 
-                        className='grid grid-cols-2 lg:gap-2'
+                        className='grid grid-cols-2 sm:gap-1 lg:gap-2'
                     >
                         {/* image */}
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>

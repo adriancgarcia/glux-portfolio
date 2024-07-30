@@ -41,33 +41,43 @@ export const familyImages = [
         description: '',
     },
     {
-        src: '../img/family/_ACG7173.jpg',
+        src: '../img/family/_ACG8050.jpg',
         title: 'Image9',
         description: '',
     },
     {
-        src: '../img/family/_ACG6997.jpg',
+        src: '../img/family/_ACG8225.jpg',
         title: 'Image10',
         description: '',
     },
     {
-        src: '../img/family/_ACG6978.jpg',
+        src: '../img/family/_ACG7173.jpg',
         title: 'Image11',
         description: '',
     },
     {
-        src: '../img/family/_ACG6528.jpg',
+        src: '../img/family/_ACG6997.jpg',
         title: 'Image12',
         description: '',
     },
     {
-        src: '../img/family/_ACG6707.jpg',
+        src: '../img/family/_ACG6978.jpg',
         title: 'Image13',
         description: '',
     },
     {
-        src: '../img/family/_ACG6573.jpg',
+        src: '../img/family/_ACG6528.jpg',
         title: 'Image14',
+        description: '',
+    },
+    {
+        src: '../img/family/_ACG6707.jpg',
+        title: 'Image15',
+        description: '',
+    },
+    {
+        src: '../img/family/_ACG6573.jpg',
+        title: 'Image16',
         description: '',
     },
 ];

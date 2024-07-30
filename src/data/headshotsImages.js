@@ -1,10 +1,5 @@
 export const headshotsImages = [
     {
-        src: '../img/headshots/Nina1.jpg',
-        title: 'Image1',
-        description: '',
-    },
-    {
         src: '../img/headshots/Nina2.jpg',
         title: 'Image2',
         description: '',

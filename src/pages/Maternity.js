@@ -6,7 +6,6 @@ import "yet-another-react-lightbox/styles.css";
 import { maternityImages } from '../data/maternityImages';
 import { Fullscreen, Thumbnails } from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-
 // import  Link
 import { Link } from 'react-router-dom';
 // import motion
