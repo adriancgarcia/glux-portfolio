@@ -1,5 +1,50 @@
 export const weddingImages = [
     {
+        src: '../img/weddings/wedding1.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding2.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding3.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding4.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding5.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding6.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding7.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding8.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
+        src: '../img/weddings/wedding9.jpg',
+        title: 'Image1',
+        description: '',
+    },
+    {
         src: '../img/weddings/ACG_0004.jpg',
         title: 'Image1',
         description: '',

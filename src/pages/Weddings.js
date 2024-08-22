@@ -46,7 +46,7 @@ const Weddings = () => {
 
                     {/* image grid */}
                     <div 
-                        className='grid grid-cols-1 grid-row-start-4 lg:gap-2 cursor-pointer'
+                        className='grid grid-cols-1 grid-row-start-4 lg:pt-[300px] lg:gap-2 cursor-pointer'
                     >
                     {/* <button onClick={() => setOpen(true)}>Open Lightbox</button> */}
 
