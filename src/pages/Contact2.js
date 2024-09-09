@@ -5,7 +5,7 @@ import{ init } from '@emailjs/browser';
 init('REACT_APP_EMAILJS_USER_ID');
 
 
-const ContactForm = ({setAlertContent, setShowAlert}) => {
+const Contact2 = ({setAlertContent, setShowAlert}) => {
   
   const [ formData, setFormData ] = useState({email: '', firstName: '', lastName: '', subject: '', message: ''});
   
@@ -102,4 +102,4 @@ const ContactForm = ({setAlertContent, setShowAlert}) => {
   )
 }
 
-export default ContactForm;
+export default Contact2;
