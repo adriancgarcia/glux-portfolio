@@ -25,7 +25,7 @@ const AnimRoutes = () => {
                     <Route path='/about' element={<About />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                      <Route path='/contact' element={<Contact />} />
-                     <Route path='/contact2' element={<Contact2 />} />
+                     {/* <Route path='/contact2' element={<Contact2 />} /> */}
                      <Route path='/weddings' element={<Weddings />} />
                      <Route path='/maternity' element={<Maternity />} /> 
                      <Route path='/family' element={<Family />} />
