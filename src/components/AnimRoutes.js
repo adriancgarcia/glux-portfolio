@@ -10,7 +10,7 @@ import Events from '../pages/Events';
 import Headshots from '../pages/Headshots';
 import Family from '../pages/Family';
 import TestAlbum from '../pages/TestAlbum';
-import Contact2 from '../pages/Contact2';
+import Contact2 from '../pages/contact2';
 
 // import routes route and useLocation  hook
 import { Route, Routes, useLocation } from 'react-router-dom';
