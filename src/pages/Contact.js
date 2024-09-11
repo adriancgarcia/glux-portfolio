@@ -93,10 +93,10 @@ const Contact =() => {
                                     placeholder='Your message'
                                     required
                                 />
-                                <input type="submit"
+                                {/* <input type="submit"
                                     value="Send"
-                                    className='btn mb-[30px] mx-auto lg:mx-0 self-start' />
-                            <button className='btn mb-[30px] mx-auto lg:mx-0 self-start cursor: pointer'>Send</button>
+                                    className='btn mb-[30px] mx-auto lg:mx-0 self-start' /> */}
+                                <button className='btn mb-[30px] mx-auto lg:mx-0 self-start cursor: pointer'>Send</button>
                         </form> 
                     </div>
                     {/* image */}
