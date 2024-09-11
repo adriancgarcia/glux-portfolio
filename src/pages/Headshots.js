@@ -46,7 +46,7 @@ const Headshots = () => {
 
                     {/* image grid */}
                     <div 
-                        className='grid grid-cols-1 grid-row-start-4 sm:pt-[20px] lg:pt-[400px] lg:gap-2 cursor-pointer'
+                        className='grid grid-cols-1 grid-row-start-4 sm:pt-[20px] lg:pt-[800px] lg:gap-2 cursor-pointer'
                     >
                     {/* <button onClick={() => setOpen(true)}>Open Lightbox</button> */}
 

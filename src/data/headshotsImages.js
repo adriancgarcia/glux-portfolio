@@ -1,33 +1,8 @@
 export const headshotsImages = [
-    {
-        src: '../img/headshots/Nina2.jpg',
-        title: 'Image1',
-        description: '',
-    },
-
-    {
-        src: '../img/headshots/Nina3.jpg',
-        title: 'Image2',
-        description: '',
-    },
-    {
-        src: '../img/headshots/Nina4.jpg',
-        title: 'Image3',
-        description: '',
-    },
-    {
-        src: '../img/headshots/Nina5.JPG',
-        title: 'Image4',
-        description: '',
-    },
+ 
     {
         src: '../img/headshots/Nina6.JPG',
         title: 'Image5',
-        description: '',
-    },
-    {
-        src: '../img/headshots/ACG_David_Lozano_0001.jpg',
-        title: 'Image6',
         description: '',
     },
     {
@@ -62,27 +37,88 @@ export const headshotsImages = [
     },
     {
         src: '../img/headshots/ACG_EC161.jpg',
-        title: 'Image12',
-        description: '',
-    },
-    {
-        src: '../img/headshots/ACG_EC166.jpg',
         title: 'Image13',
         description: '',
     },
     {
-        src: '../img/headshots/ACG_EC175.jpg',
+        src: '../img/headshots/ACG_EC166.jpg',
         title: 'Image14',
         description: '',
     },
     {
-        src: '../img/headshots/ACG_EC185.jpg',
+        src: '../img/headshots/ACG_EC175.jpg',
         title: 'Image15',
         description: '',
     },
     {
-        src: '../img/headshots/ACG_EC186.jpg',
+        src: '../img/headshots/ACG_EC185.jpg',
         title: 'Image16',
+        description: '',
+    },
+    {
+        src: '../img/headshots/ACG_EC186.jpg',
+        title: 'Image17',
+        description: '',
+    },
+    {
+        src: '../img/headshots/headshot1.jpg',
+        title: 'headshot1',
+        description: '',
+    },
+    {
+        src: '../img/headshots/headshot2.jpg',
+        title: 'headshot2',
+        description: '',
+    },
+    {
+        src: '../img/headshots/headshot3.jpg',
+        title: 'headshot3',
+        description: '',
+    },
+    {
+        src: '../img/headshots/headshot4.jpg',
+        title: 'headshot4',
+        description: '',
+    },
+
+    {
+        src: '../img/headshots/headshot5.jpg',
+        title: 'headshot5',
+        description: '',
+    },
+    // {
+    //     src: '../img/headshots/headshot6.jpg',
+    //     title: 'headshot6',
+    //     description: '',
+    // },
+    {
+        src: '../img/headshots/headshot7.jpg',
+        title: 'headshot7',
+        description: '',
+    },
+    // {
+    //     src: '../img/headshots/headshot8.jpg',
+    //     title: 'headshot8',
+    //     description: '',
+    // },
+    {
+        src: '../img/headshots/headshot9.jpg',
+        title: 'headshot9',
+        description: '',
+    },
+    {
+        src: '../img/headshots/headshot10.jpg',
+        title: 'headshot12',
+        description: '',
+    },
+    {
+        src: '../img/headshots/headshot11.jpg',
+        title: 'headshot11',
+        description: '',
+    },
+    {
+        src: '../img/headshots/headshot12.jpg',
+        title: 'headshot12',
         description: '',
     },
 ];

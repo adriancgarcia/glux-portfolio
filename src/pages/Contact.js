@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 // import photo
-import EclipseImg from '../img/contact/SolarEclipse.jpg';
+import rookeryImg from '../img/contact/The_Rookery.jpg';
 // import motion
 import { motion } from 'framer-motion';
 // import transitions
@@ -109,7 +109,7 @@ const Contact =() => {
                         transition= {transition1} 
                         className='lg:flex-1'
                     >
-                        <img src={EclipseImg} alt='' />
+                        <img src={rookeryImg} alt='' />
                     </motion.div>
                 </div>
             </div>

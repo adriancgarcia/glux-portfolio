@@ -8,7 +8,7 @@ const Images = (props) => {
     };
 
     return (
-        <div className='grid grid-cols-3 grid-row-start-4 lg:gap-2'>
+        <div className='grid grid-cols-3 grid-row-start-4 justify-items-center lg:gap-2'>
             {data.map((slide, index) => (
                 <div
                     onClick={() => handleClickImage(index)}

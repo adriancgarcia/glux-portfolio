@@ -46,11 +46,11 @@ const Weddings = () => {
 
                     {/* image grid */}
                     <div 
-                        className='grid grid-cols-1 grid-row-start-4 lg:pt-[300px] lg:gap-2 cursor-pointer'
+                        className='grid grid-cols-1 grid-row-start-4 justify-items-center lg:pt-[600px] lg:gap-2 cursor-pointer'
                     >
                     {/* <button onClick={() => setOpen(true)}>Open Lightbox</button> */}
 
-                    <Images 
+                    <Images
                         data={weddingImages} 
                         onClick={(currentIndex) => setIndex(currentIndex)} 
                     />
