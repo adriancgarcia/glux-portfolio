@@ -36,6 +36,7 @@ const Header =() => {
                     <Link to={'/about'} className='text-[#696c6d] hover:text-primary transition'>About</Link>
                     <Link to={'/portfolio'} className='text-[#696c6d] hover:text-primary transition'>Portfolio</Link>
                     <Link to={'/contact'} className='text-[#696c6d] hover:text-primary transition'>Contact</Link>
+                    <Link to={'/contactpage'} className='text-[#696c6d] hover:text-primary transition'>Contact2</Link>
                 </nav>  
             </div>
                 {/* socials */}
