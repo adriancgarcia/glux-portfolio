@@ -3,7 +3,7 @@ import React from 'react';
 import Image1 from '../img/portfolio/wedding1.jpg';
 import Image2 from '../img/portfolio/_ACG1319.jpg';
 import Image3 from '../img/portfolio/Candies_MaternityShoot_Morgan_0322.jpg';
-// import Image4 from '../img/portfolio/Navy_Pier1.JPG';
+import Image4 from '../img/portfolio/07022018_ACG_JonLester_NVRQT_Fundraiser_0009.jpg';
 import Nina3 from '../img/portfolio/Nina3.jpg';
 import Image5 from '../img/portfolio/Cindy.jpg';
 
@@ -72,12 +72,12 @@ const Portfolio =() => {
                             </Link >    
                         </div>
 
-                        {/* <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
+                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden'>
                             <Link to={'/events'}>
                                     <h2>Events</h2>
                                 <img className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500' src={Image4} alt=''/>
                             </Link >    
-                        </div> */}
+                        </div>
 
                         <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:[220px] bg-accent overflow-hidden flex justify-center items-center'>
                             <Link to={'/headshots'}>
