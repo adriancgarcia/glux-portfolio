@@ -7,19 +7,14 @@ import Image4 from '../img/portfolio/07022018_ACG_JonLester_NVRQT_Fundraiser_000
 import Nina3 from '../img/portfolio/Nina3.jpg';
 import Image5 from '../img/portfolio/Cindy.jpg';
 
-
-
 // import  Link
 import { Link } from 'react-router-dom';
 // import motion
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
-// cursor context
-// import { CursorContext } from '../context/CursorContext';
 
 const Portfolio =() => {
-    // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
     return (
         <motion.section 
             initial={{ opacity: 0, y: '100%' }}
@@ -32,8 +27,6 @@ const Portfolio =() => {
                 <div className='flex flex-col lg:flex-row h-full items-center justify-start gap-x-24 text-center lg:text-left pt-36 lg:pt-36 pb-8'>
                     {/* text */} 
                     <motion.div 
-                        // onMouseEnter={mouseEnterHandler}
-                        // onMouseLeave={mouseLeaveHandler}
                         initial={{ opacity: 0, y: '80%' }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: '80%' }}
@@ -46,8 +39,6 @@ const Portfolio =() => {
                     </motion.div>
                     {/* image grid */}
                     <div 
-                        // onMouseEnter={mouseEnterHandler}
-                        // onMouseLeave={mouseLeaveHandler} 
                         className='grid grid-cols-2 sm:gap-1 lg:gap-2'
                     >
                         {/* image */}

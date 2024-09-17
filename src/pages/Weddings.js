@@ -16,6 +16,7 @@ import { transition1 } from '../transitions';
 
 import Images from '../images';
 
+
 const Weddings = () => {
     // const [open, setOpen] = useState(false)
     const [index, setIndex] = useState(-1);

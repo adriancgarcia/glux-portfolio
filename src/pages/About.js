@@ -7,11 +7,8 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
-// cursorContext 
-// import { CursorContext } from '../context/CursorContext';
 
 const About =() => {
-    // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext)
     return (
         <motion.section
             initial={{ opacity: 0, y: '100%' }}
@@ -21,8 +18,6 @@ const About =() => {
             className='section'
         >
         <div 
-            // onMouseEnter={mouseEnterHandler}
-            // onMouseLeave={mouseLeaveHandler}
             className='container mx-auto h-full relative'
         >
             {/* text & image wrapper*/}
