@@ -105,4 +105,19 @@ export const maternityImages = [
         title: 'Image21',
         description: '',
     },
+     {
+        src: '../img/maternity/_ACG5010.jpg',
+        title: 'Image21',
+        description: '',
+    },
+     {
+        src: '../img/maternity/_ACG5029.jpg',
+        title: 'Image21',
+        description: '',
+    },
+     {
+        src: '../img/maternity/_ACG5072.jpg',
+        title: 'Image21',
+        description: '',
+    },
 ];
