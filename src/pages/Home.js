@@ -28,7 +28,7 @@ const Home = () => {
                         transition= {transition1}
                         className='w-full xs:pt-32 pb-8 lg:pt-32 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start lg:pl-32'>
                         <h1 className='h1 xs: text-center lg:w-[400px]'>
-                            G Lux Photography 2
+                            G Lux Photography
                         </h1>  
                         {/* <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>Chicago, IL</p> */}
                         <Link to ={'/portfolio'} className='btn'>
