@@ -4,6 +4,8 @@ import { IoMdClose } from 'react-icons/io';
 import { CgMenuRight } from 'react-icons/cg';
 // import link
 import { Link } from 'react-router-dom';
+//import socials
+import { ImFacebook, ImInstagram,} from 'react-icons/im';
 // import motion
 import { motion } from 'framer-motion';  
 
@@ -22,7 +24,6 @@ const menuVariants = {
 
 const MobileNav =() => {
     const [openMenu, setOpenMenu] = useState(false);
-
     const closeMenu = () => setOpenMenu(false);
     return (  
         <nav className='text-primary xl:hidden'>
@@ -57,6 +58,12 @@ const MobileNav =() => {
                     </li>
                     <li>
                         <Link to='/contact' onClick={closeMenu}>Contact</Link>
+                    </li>
+                    <li>
+                        <a href='https://www.facebook.com/GLuxPhoto' onClick={closeMenu} target='_blank' rel='noopener noreferrer'><ImFacebook /></a>
+                    </li>
+                    <li>
+                        <a href='https://www.instagram.com/gluxphoto' onClick={closeMenu} target='_blank' rel='noopener noreferrer'><ImInstagram /></a>
                     </li>
                 </ul>
             </motion.div>
